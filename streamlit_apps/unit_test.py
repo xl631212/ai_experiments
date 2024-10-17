@@ -12,8 +12,6 @@ from langchain.schema.output_parser import StrOutputParser
 import shutil
 from langchain.docstore.document import Document
 
-st.set_page_config(layout="wide", )
-
 
 # Create a text input box to allow the user to enter the download folder path
 download_folder = os.path.join("streamlit_apps", "data")
